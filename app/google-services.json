@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "869454904410",
+    "project_id": "justsport-a8ec3",
+    "storage_bucket": "justsport-a8ec3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869454904410:android:e293fa336d67711cf8ac63",
+        "android_client_info": {
+          "package_name": "com.example.justsport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869454904410-5cme2jrn0rche35kpd69ao5qjbtj3v66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6aiXQwBnPu9TSh1r6_aTIDz5szA067fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869454904410-5cme2jrn0rche35kpd69ao5qjbtj3v66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
