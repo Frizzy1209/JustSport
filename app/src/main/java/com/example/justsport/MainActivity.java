@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intentToAllSportsActivity);
     }
 
+    // asdasd
 
     public void sportsNearYou (View view) {
 
