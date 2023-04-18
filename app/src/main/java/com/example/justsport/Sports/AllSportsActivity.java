@@ -23,7 +23,7 @@ public class AllSportsActivity extends AppCompatActivity {
 
     }
 
-    protected void backButton (View view){
+    public void backButton (View view){
         Intent intentBackToMain = new Intent(this, MainActivity.class);
 
         startActivity(intentBackToMain);
