@@ -20,6 +20,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Sports.AllSportsActivity"
+            android:label="JustSport" >
+        </activity>
+        <activity
+            android:name=".location.SportsNearYouActivity"
+            android:label="JustSport" >
+        </activity>
+
     </application>
 
 </manifest>
