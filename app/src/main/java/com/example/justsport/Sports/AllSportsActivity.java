@@ -4,9 +4,11 @@ import static com.example.justsport.R.layout.activity_allsports;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.justsport.MainActivity;
 import com.example.justsport.R;
 
 public class AllSportsActivity extends AppCompatActivity {
@@ -19,8 +21,12 @@ public class AllSportsActivity extends AppCompatActivity {
         // Intent intentFromMainActivitty = new Intent();
 
 
+    }
 
+    protected void backButton (View view){
+        Intent intentBackToMain = new Intent(this, MainActivity.class);
 
+        startActivity(intentBackToMain);
     }
 
 }
