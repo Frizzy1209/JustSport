@@ -24,10 +24,11 @@
             android:name=".Sports.AllSportsActivity"
             android:label="JustSport" >
         </activity>
-        <activity
-            android:name=".location.SportsNearYouActivity"
-            android:label="JustSport" >
-        </activity>
+
+        <activity android:name=".SportsListedDependingOnDistanceActivity" />
+        <activity android:name=".ChoosePlaceForBookingActivity" />
+        <activity android:name=".BookFinalActivity" />
+
 
     </application>
 

@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">JustSport</string>
+
+    <string name="sports_listed_dep_distance_activity_title">Sports Listed Depending On Distance</string>
+
+    <string-array name="numbers_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
 </resources>
+
+

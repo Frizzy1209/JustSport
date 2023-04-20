@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CBD4C2">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:entries="@array/numbers_array"
+        android:padding="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+
+        <View
+                android:layout_width="8dp"
+                android:layout_height="1dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="411dp"
+            android:layout_height="167dp"
+            android:layout_weight="1"
+            android:background="@drawable/basketball"
+            android:onClick="basketballImageButton"
+            android:padding="8dp" />
+
+        <View
+                android:layout_width="8dp"
+                android:layout_height="1dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="411dp"
+            android:layout_height="167dp"
+            android:layout_weight="1"
+            android:background="@drawable/tennis"
+            android:onClick="tennisImageButton"
+            android:padding="8dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton15"
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:layout_weight="1"
+            android:background="@drawable/padeltennis"
+            android:onClick="padeltennisImageButton"
+            android:padding="8dp" />
+
+        <View
+                android:layout_width="8dp"
+                android:layout_height="1dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="411dp"
+            android:layout_height="162dp"
+            android:layout_weight="1"
+            android:background="@drawable/fodbold"
+            android:onClick="fodboldImageButton"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

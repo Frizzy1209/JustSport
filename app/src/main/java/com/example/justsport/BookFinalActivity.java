@@ -1,17 +1,14 @@
-package com.example.justsport.location;
+package com.example.justsport;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.justsport.R;
-
-public class SportsNearYouActivity extends AppCompatActivity {
+public class BookFinalActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sportsnearyou);
+        setContentView(R.layout.activity_bookfinal);
     }
-
 }

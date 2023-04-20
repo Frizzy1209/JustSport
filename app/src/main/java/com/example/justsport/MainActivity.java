@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.justsport.Sports.AllSportsActivity;
-import com.example.justsport.location.SportsNearYouActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,9 +26,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void sportsNearYou (View view) {
 
-        Intent intentToSportsNearYouActivity = new Intent(this, SportsNearYouActivity.class);
+        Intent intentToSportsListedDependingOnDistanceActivity = new Intent(this, SportsListedDependingOnDistanceActivity.class);
 
-        startActivity(intentToSportsNearYouActivity);
+        startActivity(intentToSportsListedDependingOnDistanceActivity);
+
     }
 
 }

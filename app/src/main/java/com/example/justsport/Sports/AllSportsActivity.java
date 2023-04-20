@@ -8,6 +8,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.justsport.ChoosePlaceForBookingActivity;
 import com.example.justsport.MainActivity;
 import com.example.justsport.R;
 
@@ -17,9 +18,37 @@ public class AllSportsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(activity_allsports);
+    }
 
-        // Intent intentFromMainActivitty = new Intent();
+    public void padeltennisImageButton (View view) {
 
+        Intent intentToChoosePlaceForBookingFromAllSportsPadeltennis = new Intent(this, ChoosePlaceForBookingActivity.class);
+
+        startActivity(intentToChoosePlaceForBookingFromAllSportsPadeltennis);
+
+    }
+
+    public void basketballImageButton ( View view) {
+
+        Intent intentToChoosePlaceForBookingFromAllSportsBasketball = new Intent(this, ChoosePlaceForBookingActivity.class);
+
+        startActivity(intentToChoosePlaceForBookingFromAllSportsBasketball);
+
+    }
+
+    public void tennisImageButton (View view) {
+
+        Intent intentToChoosePlaceForBookingFromAllSportsTennis = new Intent(this, ChoosePlaceForBookingActivity.class);
+
+        startActivity(intentToChoosePlaceForBookingFromAllSportsTennis);
+
+    }
+
+    public void fodboldImageButton (View view) {
+
+        Intent intentToChoosePlaceForBookingFromAllSportsFodbold = new Intent(this, ChoosePlaceForBookingActivity.class);
+
+        startActivity(intentToChoosePlaceForBookingFromAllSportsFodbold);
 
     }
 
