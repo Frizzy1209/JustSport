@@ -8,22 +8,25 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="153dp"
-        android:layout_height="52dp"
+        android:layout_width="207dp"
+        android:layout_height="101dp"
         android:layout_marginTop="104dp"
         android:text="Her har du mulighed for at dyrke din sport"
-        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageButton10"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="110dp"
-        android:layout_height="61dp"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
         android:text="Tilbage"
+        android:textSize="10dp"
         android:onClick="returnKnap"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,37 +37,27 @@
 
     <ImageButton
         android:id="@+id/imageButton10"
-        android:layout_width="156dp"
-        android:layout_height="151dp"
-        android:layout_marginBottom="32dp"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/stedbooking1"
         android:onClick="hafniahallen"
         app:layout_constraintBottom_toTopOf="@+id/imageButton11"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
         android:id="@+id/imageButton11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/stedbooking2"
         android:onClick="svanemøllehallen"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton12"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageButton
-        android:id="@+id/imageButton12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:onClick="grøndalMulticenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 

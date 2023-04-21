@@ -26,8 +26,8 @@
 
         <ImageButton
             android:id="@+id/imageButton13"
-            android:layout_width="411dp"
-            android:layout_height="167dp"
+            android:layout_width="295dp"
+            android:layout_height="105dp"
             android:layout_weight="1"
             android:background="@drawable/basketball"
             android:onClick="basketballImageButton"
@@ -35,21 +35,25 @@
 
         <View
                 android:layout_width="8dp"
-                android:layout_height="1dp"/>
+                android:layout_height="20dp"/>
 
         <ImageButton
             android:id="@+id/imageButton14"
-            android:layout_width="411dp"
-            android:layout_height="167dp"
+            android:layout_width="295dp"
+            android:layout_height="105dp"
             android:layout_weight="1"
             android:background="@drawable/tennis"
             android:onClick="tennisImageButton"
             android:padding="8dp" />
 
+        <View
+            android:layout_width="8dp"
+            android:layout_height="20dp"/>
+
         <ImageButton
             android:id="@+id/imageButton15"
-            android:layout_width="match_parent"
-            android:layout_height="162dp"
+            android:layout_width="295dp"
+            android:layout_height="105dp"
             android:layout_weight="1"
             android:background="@drawable/padeltennis"
             android:onClick="padeltennisImageButton"
@@ -57,12 +61,12 @@
 
         <View
                 android:layout_width="8dp"
-                android:layout_height="1dp"/>
+                android:layout_height="20dp"/>
 
         <ImageButton
             android:id="@+id/imageButton16"
-            android:layout_width="411dp"
-            android:layout_height="162dp"
+            android:layout_width="295dp"
+            android:layout_height="105dp"
             android:layout_weight="1"
             android:background="@drawable/fodbold"
             android:onClick="fodboldImageButton"
