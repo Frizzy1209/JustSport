@@ -28,6 +28,7 @@
         <activity android:name=".SportsListedDependingOnDistanceActivity" />
         <activity android:name=".ChoosePlaceForBookingActivity" />
         <activity android:name=".BookFinalActivity" />
+        <activity android:name="ChoosingDateAndTime" />
 
 
     </application>

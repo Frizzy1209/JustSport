@@ -24,25 +24,25 @@ public class ChoosePlaceForBookingActivity extends AppCompatActivity {
 
     public void hafniahallen (View view) {
 
-        Intent intentFromHafniahallenToBookFinal = new Intent(this,BookFinalActivity.class);
+        Intent intentFromHafniahallenToDateAndTime = new Intent(this,ChoosingDateAndTime.class);
 
-        startActivity(intentFromHafniahallenToBookFinal);
+        startActivity(intentFromHafniahallenToDateAndTime);
 
     }
 
     public void svanemøllehallen (View view) {
 
-        Intent intentFromSvanemøllehallenToBookFinal = new Intent(this,BookFinalActivity.class);
+        Intent intentFromSvanemøllehallenToChoosingDateAndTime = new Intent(this,ChoosingDateAndTime.class);
 
-        startActivity(intentFromSvanemøllehallenToBookFinal);
+        startActivity(intentFromSvanemøllehallenToChoosingDateAndTime);
 
     }
 
     public void grøndalMulticenter (View view) {
 
-        Intent intentFromGrøndalMultiCenterToBookFinal = new Intent(this,BookFinalActivity.class);
+        Intent intentFromGrøndalMultiCenterToDateAndTime = new Intent(this,ChoosingDateAndTime.class);
 
-        startActivity(intentFromGrøndalMultiCenterToBookFinal);
+        startActivity(intentFromGrøndalMultiCenterToDateAndTime);
 
     }
 
