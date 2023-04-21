@@ -18,8 +18,9 @@ public class ChoosePlaceForBookingActivity extends AppCompatActivity {
 
     public void returnKnap (View view) {
 
-        Intent intentToMainActivity = new Intent(this, MainActivity.class);
+        Intent intentToSportsListedDependingOnDistance = new Intent(this, SportsListedDependingOnDistanceActivity.class);
 
+        startActivity(intentToSportsListedDependingOnDistance);
     }
 
     public void hafniahallen (View view) {
