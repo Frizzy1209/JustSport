@@ -37,7 +37,7 @@
 
     <ImageButton
         android:id="@+id/imageButton10"
-        android:layout_width="250dp"
+        android:layout_width="300dp"
         android:layout_height="200dp"
         android:layout_marginBottom="40dp"
         android:background="@drawable/stedbooking1"
@@ -50,7 +50,7 @@
 
     <ImageButton
         android:id="@+id/imageButton11"
-        android:layout_width="250dp"
+        android:layout_width="300dp"
         android:layout_height="200dp"
         android:layout_marginBottom="52dp"
         android:background="@drawable/stedbooking2"

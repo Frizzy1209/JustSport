@@ -8,8 +8,9 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="196dp"
-        android:layout_height="215dp"
+        android:layout_width="200dp"
+        android:layout_height="220dp"
+        android:background="@drawable/checkmark"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
