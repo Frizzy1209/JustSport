@@ -1,5 +1,1 @@
-Android studios
 
-Firebase
-
-GitHub
